@@ -19,6 +19,6 @@
 - DOM manipulation and event handling
 
  Challenges Faced and Solutions
-- Scroll not working**: Solved by correcting unclosed `<div>` tags and misused `<style>` placement.
-- Video position issue**: Ensured video was placed after all main content and styled with flexbox to stay centered.
-- Form success message**: Used JavaScript to prevent default form submission and show a "Thank you" message without reloading the page.
+- Scroll not working: Solved by correcting unclosed `<div>` tags and misused `<style>` placement.
+- Video position issue: Ensured video was placed after all main content and styled with flexbox to stay centered.
+- Form success message: Used JavaScript to prevent default form submission and show a "Thank you" message without reloading the page.
