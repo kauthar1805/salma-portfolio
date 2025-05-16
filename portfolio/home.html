@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Personal portfolio of web developer show projects and skills to potential employers and client">
+	<meta name="keywords" content="portfolio,web developer,designer,client,projects,skills,employers">
+	<meta name="author"content="SALMA">
+	<title>My Web Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="script.js"></script>
+
+
+</head>
+	<style type="text/css">
+	*{
+	padding: 0;
+	margin: 0;
+    }
+  .main{
+  	width:100%;
+  	background:url(pic.jpg);
+  	background-position:center;
+  	background-size:cover;
+  	height:100vh;
+  	position: relative;
+  	font-family: sans-serif;
+  }
+   .navbar{
+    width:86%;
+    display:flex ;
+    margin: auto;
+    padding:15px 0;
+    align-items:center ;
+    justify-content: space-between;
+    texts-align: right;
+  }
+  ul{
+    margin-top: -4;
+}
+  
+ ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 10px 16px;
+
+ }
+  ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration:none;
+    color:white;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ ul li a:hover{
+    	color:rgb(230,104, 39);
+
+ }
+ 	a{
+ 	font-size: 20px;
+    font-weight: bold;
+    text-decoration:none;
+    color:white;
+    transition: .4s ease;
+ 	}
+ 	a:hover{
+    	color:rgb(230,104, 39);
+
+ }
+.search{
+	width: 330px;
+	float: left;
+	margin-left: 600px;
+}
+
+.srch{
+	font-family: Time New Roman;
+	width:200px ;
+	height:40px ;
+	background: transparent;
+	border: 1px solid #ff7200;
+	margin-top: 13px;
+	color: white;
+	border-right: none;
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+
+}
+.btn{
+	width:100px ;
+	height:40px;
+	background:#ff7200 ;
+	border: 2px solid #ff7200;
+	margin-top: 13px;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.btn:focus{
+	outline: none;
+}
+.srch:focus{
+	outline: none;
+}
+
+ .info{
+    margin-left:7%;
+    margin-top: 6%;
+ }
+ .info h1{
+    font-size:300%;
+    color: white;
+ }
+.info h3{
+    font-size: 150%;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+.info span{
+    color:rgb(230,104, 39) ;
+}
+p{
+	color: white;
+}
+.form{
+	width:500px;
+	height: 500px;
+	background: linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.8)80%);
+	position: absolute;
+	top:100px;
+	left:1100px;
+	border-radius: 20px;
+	padding: 100px;
+}
+.form h2{
+	width: 250;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	background-color:#ff7200 ;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+
+}
+.form input{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border-bottom: i px solid #ff7200;
+	border-top: none;
+	border-raght: none;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+
+}
+.form input:focus{
+	outline: none;
+}
+::placeholder{
+	color: white;
+	font-family: Arial;
+
+}
+.btnn{
+	width: 240px;
+	height: 40px;
+	background: #ff7200;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	transition: 0.4s ease;
+	text-align: center;
+
+}
+.btnn:hover{
+	background: white;
+	color: #ff7200;
+}
+.btnn a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.form .Link{
+	font-family: Arial;
+	font-size: 17px;
+	padding-top: 20px;
+	text-align: center;
+}
+.form .link a{
+	text-decoration: none;
+	color: #ff7200;
+
+}
+.liw{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align:center;
+}
+figure p{
+	align-items: center;
+	margin-bottom: 40px;
+}
+footer{
+	background-color:black;
+	align-items:center;
+}
+
+  </style>
+<body>
+	<div class="main">
+		<div class="navbar">
+		     <ul>
+		     	<li><a href="home.html">Home</a></li>
+		     	<li><a href="about.html">About</a></li>
+		     	<li><a href="project.html">Project</a></li>
+		     	<li><a href="survey.html">Survey</a></li>
+		     	<li><a href="contact.html">Contact</a></li>
+			</ul>
+		     
+		     <div class="search">
+			<input class="srch" type="search" name="" placeholder="Type to Text">
+			<a href="#"><button class="btn">Search</button></a>
+			
+		</div>
+
+		</div>
+
+		<div class="info">
+			 <h1><span>H </span>ello <span>W</span>elcome.</h1>
+         	<h3><span>W</span>eb <span>D</span>esigner.</h3>
+         	<h3>I'm,Web Designer and Development from UNIVERSITY OF DODOMA<br>This is my Parsonal Portfolio Website.</h3>
+    
+		</div>
+		<form action="about.html" method="GET">
+		<div class="form">
+			<h2>Log in Here</h2>
+			<input type="email" name="email"placeholder="Enter Email Here" required>
+			<input type="password" name=""placeholder="Enter Password Here" required>
+			<button class="btnn"><a href="#">Log in</a></button>
+			<p class="Link">Don't have an account<br>
+			<a href="#">Sign up here</a></p>
+			<p class="liw">Log in with</p>
+
+		</div>
+	</form>
+	<div class="map">
+	<figure>
+		<br><br><br><br><br><br>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3531989812764!2d35.806296575868124!3d-6.217067060895155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184dfb07ca06cb21%3A0xd66d805172b10bd6!2sCollege%20of%20Informatics%20and%20Virtual%20Education%20Administration%20Block!5e0!3m2!1sen!2stz!4v1746476068621!5m2!1sen!2stz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	</figure>
+</div>
+	 <div>
+	 	
+	 <footer>
+      <p>&copy;2025 Portfolio.<br>All Rights Reserved.</p>
+   </footer>
+</div>
+	
+</body>
+</html>

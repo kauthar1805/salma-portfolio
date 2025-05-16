@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+	<script src="script.js"></script>
+</head>
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+		
+
+	}
+	.contact-form{
+		position: relative;
+		min-height: 100vh;
+		z-index: 0;
+		background:url(pic.jpg);
+		padding: 30px;
+		justify-content: center;
+		display: grid;
+		grid-template-rows: 1fr auto 1fr;
+		align-items: center;
+	}
+	.container{
+		max-width: 700px;
+		margin-top: 0auto;
+
+	}
+	.contact-form hi{
+		padding: 0px;
+		font-size: 7.5rem;
+		font-weight: 400;
+		color: black;
+		font-family: poppins;
+	}
+	.contact-form h1{
+		line-height: 40px;
+		margin-bottom: 5px;
+		font-size: 30px;
+		font-weight: 500;
+		color:#ff7200 ;
+		text-align: 0;
+	}
+	.contact-form .main{
+		position: relative;
+		display: flex;
+		margin: 30px 0;
+	}
+	.content{
+		flex-basis: 50px;
+		padding: 3em 3em;
+		background: black;
+		box-shadow: 2px 9px 49px rgba(0, 0, 0, 1.0);
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+	}
+	.form-img{
+		flex-basis: 50%;
+		background: white;
+		background-size: 40px;
+		border-top-right-radius: 8px ;
+		border-bottom-right-radius: 8px;
+		align-items: center;
+		display: grid;
+	}
+	.form-img img{
+		max-width: 100%;
+	}
+	.btn,button,input{
+		border-radius: 35px;
+	}
+	.btn:hover,button:hover{
+		color:#ff7200;
+		transition: 0.5s ease;
+	}
+	.contact-form form{
+		margin: 30px;
+		color: black;
+	}
+	.contact-form input{
+		outline: none;
+		margin-bottom: 15px;
+		font-stretch: 16px;
+		color: white;
+		padding: 14px 20px;
+		width: 100%;
+		display: inline-block;
+		box-sizing: border-box;
+		border: none;
+		background:black ;
+		transition: 0.3s ease ;
+	}
+	.contact-form textarea{
+		outline: none;
+		color: white;
+		
+	}
+	
+	.contact-form input:focus{
+		background: transparent;
+		border: 1px solid black;
+	}
+	.contact-form button{
+		font-size: 18px;
+		color: white;
+		width: 100%;
+		background: #ff7200;
+		font-weight: 600;
+		transition: 0.3s ease;
+		padding: 14px 15px;
+	}
+	.content button{
+		font-size: 18px;
+		color:  #ff7200;
+		width: 100%;
+		background:white;
+		font-weight: 600;
+		transition: 0.3s ease;
+		padding: 14px 15px;
+	}
+	@media(max-width:917px){
+		.contact-form{
+			margin-top: 30px;
+			margin-bottom: 10px;
+
+		}
+		.form-img{
+			border-radius: 0;
+			border-top-left-radius: 8px;
+			border-bottom-right-radius: 8px;
+			order: 2;
+		}
+		.content{
+			order: 1;
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+
+		}
+	}
+</style>
+<body>
+	<div class="contact-form">
+		<h1>Contact Us</h1>
+		<div class="main">
+			<div class="content">
+				<h2>Contact Us</h2>
+				<form action="#" method="get">
+					<input type="text"name="name" placeholder="Enter your name">
+					<input type="email"name="name" placeholder="Enter your email">
+					<textarea name="message" placeholder="Your message"></textarea>
+					<button type="sumit" class="btn">Send<i class="plane"></i></button>
+
+		
+				<button type="sumit" class="btn"><i class="plane"></i><a href="survey.html">Go Back</a></button>
+			</div>
+			<div class="form-img">
+				<img src="img.jpg" alt="">
+
+		</div>
+	</div>
+
+</body>
+</html>

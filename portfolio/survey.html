@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey</title>
+
+<script src="script.js"></script>
+</head>
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+}
+
+   .navbar{
+    width:86%;
+    display:flex ;
+    margin: auto;
+    padding:15px 0;
+    align-items:center ;
+    justify-content: space-between;
+    texts-align: right;
+  }
+  ul{
+    margin-top: -4;
+}
+  
+ ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 10px 16px;
+
+ }
+  ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration:none;
+    color:white;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ ul li a:hover{
+    	color:rgb(230,104, 39);
+
+ }
+body{
+	background-image: url(pic.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.heading{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 100px;
+}
+#head{
+	font-size: 1.8em;
+}
+#subheading{
+	font-size: 18px;
+	margin-top: 10px;
+}
+#content1{
+	width: 900px;
+	margin: auto;
+}
+form{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-top: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 54%;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 10px;
+	padding-bottom: 60px;
+}
+form .box{
+	width: 98.5%;
+	height: 2.8em;
+	position: relative;
+	bottom: 10px;
+	border-radius: 0;
+	border-radius: 5px;
+}
+#option1 select{
+	weight: 98.5%;
+	height: 2.5em;
+	position: relative;
+	bottom: 10px;
+	border-radius: 5px;
+	border: 0;
+
+}
+#option2 select{
+	weight: 98.5%;
+	height: 2.5em;
+	position: relative;
+	top:10px;
+	border-radius: 5px;
+	border: 0;
+}
+#content2 textarea{
+	width: 98.0%;
+	height: 125px;
+	position: relative;
+	bottom: 17px;
+}
+button{
+	width: 98.5%;
+	height: 3em;
+	position: relative;
+	top: 11px;
+	background-color: #ff7200;
+	border: none;
+	color:white;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+button a{
+	color: white;
+}
+</style>
+<body>
+	<div class="main">
+		<div class="navbar">
+		     <ul>
+		     	<li><a href="home.html">Home</a></li>
+		     	<li><a href="about.html">About</a></li>
+		     	<li><a href="project.html">Project</a></li>
+		     	<li><a href="survey.html">Survey</a></li>
+		     	<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="heading">
+		<h1 id="head">Survey Form</h1>
+		<h2 id="subheading">Thank you for taking the time to help us improve my platform</h2>
+	</div>
+	<form>
+		<div id="content1">
+			<label>Name</label><br><br>
+			<input type="name" name="name" placeholder="Enter your name" class="box"><br><br>
+			<label>Email</label><br><br>
+			<input type="email" name="email" placeholder="Enter your email" class="box"><br><br>
+			<label>Age(optional)</label><br><br>
+			<input type="age" name="age" placeholder="Enter your age" class="box"><br><br>
+			<label>Which option best describes your current role?</label><br><br>
+		
+		<div id="option1">
+			<select>
+				<option name="Select your role">Select your role</option>
+				<option value="Student">Student</option>
+				<option value="Full time job">Full time job</option>
+				<option value="Leaner">Leaner</option>
+				<option value="Other">Other</option>
+			</select>
+		</div>
+	
+	<br>
+	<label id="head1">How will you rate your overall experience navigating my portfolio website</label> <br> <br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspExcellent<br> <br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspGood<br> <br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspPoor<br> <br>
+		<label>How would you rate the design and visual appeal of the websites</label>
+		<div id="option2">
+			<select>
+			<option name="Select an option">Select an option</option>
+			<option value="Definitely">Definitely</option>
+			<option value="Maybe">Maybe</option>
+			<option value="Not sure">Not sure</option>
+		</select>
+		</div>
+		<br>
+		<div id="content2">
+		<label id="head2">Was the website easy to nevigate and use?</label><br> <br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspYes<br> <br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNo<br> <br>
+
+		<label id="head2">What did you like most about the website?</label><br> <br>
+		<textarea placeholder="Enter your comment here...."></textarea><br>
+		
+		<div id="content3">
+			<label id="head3">What you like to see improved?</label><br> <br>
+			<textarea placeholder="Emprovment here...."></textarea><br>
+			
+	</div>
+	<div id="content4">
+		<label id="head4">Any comment or suggestion</label><br><br>
+			<textarea placeholder="Enter your comment here...."></textarea><br><br>
+			<button><a href="contact.html">Submit</a></button>
+		</div>
+	</form>
+
+	
+</script>
+</body>
+</html>

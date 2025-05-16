@@ -1,0 +1,147 @@
+/*about style*/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: sans-serif;
+	text-align: center;
+	color:black;
+	line-height: 1.5;
+	letter-spacing:1px ;
+	
+    }
+
+
+    .navbar{
+    width:86%;
+    display:flex ;
+    margin: auto;
+    padding:15px 0;
+    align-items:center ;
+    justify-content: space-between;
+    texts-align: right;
+  }
+  ul{
+    margin-top: -4;
+}
+  
+ ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 10px 16px;
+
+ }
+ ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration:none;
+    color:white;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ ul li a:hover{
+    	color:rgb(230,104, 39);
+
+ }
+
+
+/* project style*/
+*{
+	margin-top: 0px;
+	padding: 0px;
+	transition: 0.3px;
+	font-family: sans-serif;
+	text-align: left;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	background:url(pic.jpg);
+	overflow: hidden;
+	font-family: Times New Roman;
+
+}
+h5{
+	margin-top: 100px;
+	margin-left: 100px;
+	color: #ff7200;
+	letter-spacing: 1.0px;
+	font-size: 29px;
+}
+h1{
+	font-size: 60px;
+	color: white;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.container{
+	width: 1200px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+}
+.box{
+	width: 370px;
+	height:490px;
+	padding: 50px;
+	overflow: hidden;
+	border-radius: 14px;
+	background: linear-gradient(145deg,#ffffff);
+	box-shadow: 8px 8px 16px ,
+				-8px -8px 16px #ff7200;
+	cursor: pointer;
+}
+.box:hover{
+	background: linear-gradient(145deg,#bb0738,#ff7200);
+	box-shadow:  8px 8px 16px ,
+				-8px -8px 16px #ff7200;
+}
+.icons{
+	font-size: 50px;
+	color: #ff7200;
+	margin-top: 10px;
+}
+.box:hover .icons{
+	margin-top: 10px;
+	color: #fff;
+}
+.box h2{
+	font-weight: 50
+	margin-top: 25px;
+}
+.box:hover h2{
+	color: #fff;
+}
+.box p{
+	color: grey;
+	font-weight: 400;
+	margin-top: 25px;
+}
+.box:hover p{
+	margin-top: 10px;
+	color: #fff;
+}
+.arrow{
+	font-size: 30px;
+	color: #ff3366;
+	margin-top: 40px;
+	display: none;
+}
+.box:hover .arrow{
+	color: #fff;
+	margin-top: 30px;
+	display: block;
+}
+
+/*Survey page*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(pic.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
